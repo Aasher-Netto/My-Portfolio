@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Hi, I'm Aasher George Netto</h1>
+    <p>Data Scientist | Data Analyst</p>
+    <button id="themeToggle">Toggle Dark Mode</button>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I'm Aasher Netto, a final-year MCA student passionate about using data to solve real-world problems. I specialize in Python, machine learning, and full-stack web development. My experience includes building predictive models, developing data dashboards, and creating web applications like a Stack Overflow-inspired platform.</p>
+  
+    <p>I’ve interned as a Data Science Intern at Datamites, where I worked on real-world datasets using Scikit-Learn, Pandas, and SQL, and visualized insights using Matplotlib and Seaborn. I also completed a Web Development internship at NullClass EdTech, where I built a fully functional Q&A platform with React, JavaScript, and MongoDB.</p>
+  
+    <p>I'm a quick learner and a detail-oriented developer who enjoys experimenting with new tools and contributing to open-source projects. I’m currently looking for opportunities where I can apply my skills to impactful projects and continue to grow as a data scientist and developer.</p>
+  </section>
+  
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div>
+        <h3>Languages & Tools</h3>
+        <ul>
+          <li>Python, SQL, C++</li>
+          <li>Git & GitHub</li>
+          <li>HTML, CSS, JavaScript</li>
+        </ul>
+      </div>
+  
+      <div>
+        <h3>Frameworks & Libraries</h3>
+        <ul>
+          <li>Scikit-Learn, Pandas, NumPy</li>
+          <li>Matplotlib, Seaborn</li>
+          <li>React.js, Flask</li>
+        </ul>
+      </div>
+  
+      <div>
+        <h3>Data & Analytics</h3>
+        <ul>
+          <li>Power BI, Tableau, Excel</li>
+          <li>Data Analysis & Visualization</li>
+          <li>Machine Learning & NLP</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  
+
+  <section id="projects">
+    <h2>Projects</h2>
+  
+    <div class="project">
+      <h3>📰 Fake News Detection Using NLP</h3>
+      <p>Developed a Fake News Detection system using natural language processing and machine learning techniques to classify news as real or fake. Evaluated multiple models and deployed the best-performing one on a web interface.</p>
+      <p><strong>Tools:</strong> Python, Scikit-learn, Pandas, NumPy, NLTK, TF-IDF, Flask</p>
+    </div>
+  
+    <div class="project">
+      <h3>💬 Stack Overflow-Inspired Web App</h3>
+      <p>Created a full-stack web application modeled after Stack Overflow, allowing users to post, answer, and engage in technical Q&A. Focused on user experience, authentication, and real-time interaction.</p>
+      <p><strong>Tools:</strong> React.js, JavaScript, HTML, CSS, MongoDB</p>
+    </div>
+  
+    <div class="project">
+      <h3>📊 Blinkit Business Analytics Dashboard | Power BI Project</h3>
+      <p>Designed an interactive Power BI dashboard analyzing sales data for Blinkit (India's quick-commerce platform) . Visualized insights on total sales, outlet performance, item types, fat content, and city tiers. Applied DAX functions to build calculated measures and KPIs </p>
+      <p><strong>Tools:</strong> Power BI, DAX, Data Modeling, Data Visualization</p>
+    </div>
+  </section>
+  
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <form action="https://formspree.io/f/xldjzygg" method="POST">
+      <label for="name">Name</label><br/>
+      <input type="text" id="name" name="name" required><br/>
+  
+      <label for="email">Email</label><br/>
+      <input type="email" id="email" name="email" required><br/>
+  
+      <label for="message">Message</label><br/>
+      <textarea id="message" name="message" rows="4" required></textarea><br/>
+  
+      <button type="submit">Send Message</button>
+    </form>
+  
+    <h3>Connect with Me</h3>
+    <ul>
+      <li>📧 Email: <a href="mailto:aashergeorgenetto@gmail.com">aashergeorgenetto@gmail.com</a></li>
+      <li>📞 Phone: +91 9995391070</li>
+      <li>🔗 LinkedIn: <a href="https://www.linkedin.com/in/aasher-netto-bb004227b" target="_blank">linkedin.com/in/aasher-netto-bb004227b</a></li>
+      <li>🐙 GitHub: <a href="https://github.com/Aasher-Netto" target="_blank">github.com/Aasher-Netto</a></li>
+    </ul>
+  
+    <h3>Download My Resume</h3>
+    <a href="Aasher_Resume.pdf" download class="btn">📄 Download Resume</a>
+  </section>
+  
+
+  <footer>
+    <p>© 2025 Aasher George Netto. All rights reserved.</p>
+  </footer>
+
+  <script>
+    const btn = document.getElementById('themeToggle');
+    btn.addEventListener('click', () => {
+      document.body.classList.toggle('dark');
+    });
+  </script>
+</body>
+</html>
